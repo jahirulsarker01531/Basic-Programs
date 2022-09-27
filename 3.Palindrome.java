@@ -1,4 +1,4 @@
-//palindrome
+//palindrome using math
 public class Simple{
     public static void main(String[] args){
         int n = 150, sum = 0, r;
@@ -16,3 +16,5 @@ public class Simple{
         }
     }
 }
+
+//
