@@ -2,10 +2,7 @@
 public class Simple{
     public static void main(String[] args){
         int n = 4;
-        if(n==2) {
-            System.out.println(n+" is prime");
-            
-        }else if(n<2) System.out.println(n+" is not prime");
+        if(n<2) System.out.println(n+" is not prime");
         else{
             int count = 0;
         
@@ -17,4 +14,3 @@ public class Simple{
         }
     }
 }
-
