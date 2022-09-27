@@ -1,4 +1,4 @@
-//without using method
+//prime
 public class Simple{
     public static void main(String[] args){
         int n = 4;
@@ -14,3 +14,5 @@ public class Simple{
         }
     }
 }
+
+//prime(by taking user input)
