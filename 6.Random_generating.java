@@ -1,3 +1,4 @@
+//default range 0.0(inclusive) to 1.0(exclusive).
 import java.lang.Math;
 public class Simple{
     public static void main(String[] args){
@@ -11,3 +12,17 @@ public class Simple{
     }
 }
 
+// range min(inclusive) to max(exclusive) using a formulae.
+
+public class Simple{
+    public static void main(String[] args){
+        int min = 200;
+        int max = 400;
+        System.out.println("Random value of type double between "+min+" to "+max+": ");
+        double a = Math.random()*(max-min+1)+min;
+        System.out.println(a);
+        System.out.println("Random value of type int between "+min+" to "+max+": ");
+        int b = (int)(Math.random()*(max-min+1)+min);
+        System.out.println(b);
+    }
+}
