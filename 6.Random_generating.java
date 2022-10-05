@@ -68,3 +68,39 @@ public class Simple{
         System.out.println(n);        
     }
 }
+
+//Using the ThreadLocalRandom Class
+import java.util.concurrent.ThreadLocalRandom; 
+public class Simple{
+    public static void main(String args[]){
+        
+        //Generate random integers between 0 to 999
+        int a = ThreadLocalRandom.current().nextInt();
+        int b = ThreadLocalRandom.current().nextInt();
+
+        //print random integer values
+        System.out.println("Randomly Generated integer values:");
+        System.out.println(a);
+        System.out.println(b);
+
+        //Generate Random double values
+        double c = ThreadLocalRandom.current().nextDouble();
+        double d = ThreadLocalRandom.current().nextDouble();
+
+        //Print random doubles
+        System.out.println("Randomely Generated Double values:");
+        System.out.println(c);
+        System.out.println(d);
+
+        //Generate random boolean values
+        boolean e = ThreadLocalRandom.current().nextBoolean();
+        boolean f = ThreadLocalRandom.current().nextBoolean();
+
+        //print random Booleans
+        System.out.println("Randomly generated Boolean Values:");
+        System.out.println(e);
+        System.out.println(f);
+
+
+    }
+}
