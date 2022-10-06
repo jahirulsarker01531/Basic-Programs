@@ -40,3 +40,37 @@ public class Simple{
         }
     }
 }
+
+//Diamond shape pattern
+import java.util.Scanner;
+public class Simple{
+    public static void main(String[] args){
+        int row;
+        System.out.println("Enter the number of rows:");
+        Scanner sc = new Scanner(System.in);
+        row = sc.nextInt();
+
+        for(int i=1; i<=row; i++){
+            for(int j=1; j<=row-i; j++){
+                System.out.print(" ");
+            }
+            for(int j=1; j<=i; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        for(int i=1; i<row; i++){
+            for(int j=1; j<=i; j++){
+                System.out.print(" ");
+            }
+            for(int j=i+1; j<=row; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+}
+
+
+    
