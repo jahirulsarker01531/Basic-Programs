@@ -1,4 +1,4 @@
-
+//1.pattern1
 package pac1;
 
 public class Main{
